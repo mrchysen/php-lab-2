@@ -1,0 +1,16 @@
+### Создание базы данных
+POST http://localhost:8080/database/table
+Content-Type: application/json
+
+{
+    "databaseName": "MyDb",
+    "tableMetainfo": {
+        "tableName": "asdf",
+        "columns": [
+            {
+                "columnName":"sadf2",
+                "columnType":"int"
+            }
+        ]
+    }
+}

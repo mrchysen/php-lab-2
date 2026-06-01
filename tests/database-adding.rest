@@ -1,0 +1,7 @@
+### Создание базы данных
+POST http://localhost:8080/database
+Content-Type: application/json
+
+{
+ "databaseName": "sdfsd2f"
+}

@@ -1,0 +1,1 @@
+DELETE http://localhost:8080/database/table?database-name=MyDb&table-name=asdf

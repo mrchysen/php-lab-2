@@ -1,0 +1,3 @@
+### Получение таблиц у базы данных
+GET http://localhost:8080/database/tables?database-name=sdf
+Content-Type: application/json

@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.header {
+    background-color: antiquewhite;
+    padding: 10px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+
+.sidebar {
+    padding: 10px;
+}
+
+.main-content {
+    background-color: aqua;
+}

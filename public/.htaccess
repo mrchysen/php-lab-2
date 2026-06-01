@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Статика
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
+
+# Бекенд
+RewriteRule ^ index.php [L]

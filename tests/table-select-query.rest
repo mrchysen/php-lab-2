@@ -1,0 +1,1 @@
+GET http://localhost:8080/table/data?database=UserDb&table=users
